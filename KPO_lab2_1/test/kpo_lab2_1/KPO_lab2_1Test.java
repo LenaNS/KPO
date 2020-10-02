@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package kpo_lab2_1;
 
 import java.io.ByteArrayOutputStream;
@@ -20,9 +16,7 @@ public class KPO_lab2_1Test {
     private final PrintStream originalOut = System.out;
     private final PrintStream originalErr = System.err;
 
-    /**
-     * Test of words method, of class KPO_lab2_1.
-     */
+
     @Test
     public void testWords() {
         String[] expResult = {"lac", "cul", "mul", "lab"};
@@ -30,9 +24,6 @@ public class KPO_lab2_1Test {
         assertArrayEquals(expResult, result);
     }
 
-    /**
-     * Test of words method, of class KPO_lab2_1.
-     */
     @Test
     public void testWords2() {
         String[] expResult = {"lat", "cul"};
@@ -60,9 +51,6 @@ public class KPO_lab2_1Test {
         System.setErr(new PrintStream(errContent));
     }
 
-    /**
-     * Test of conclusion method, of class KPO_lab2_1.
-     */
     @Test
     public void testConclusion() {
         String[] expResult = {"lac", "cul", "mul", "lab"};
