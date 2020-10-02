@@ -13,14 +13,13 @@ import java.util.logging.Logger;
 
 public class KPO_lab2_2 {
 
-    static File f = new File("lab2_2.txt");
-
     public static void main(String[] args) throws FileNotFoundException {
-        ArrayList<String> l = readerFile();
-        writeFile(l);
+        File f = new File("lab2_2.txt");
+        ArrayList<String> l = readerFile(f);
+        writeFile(l, f);
     }
 
-    public static ArrayList<String> readerFile() {
+    public static ArrayList<String> readerFile(File f) {
         Scanner reader = null;
         ArrayList<String> list = null;
         try {
@@ -46,7 +45,7 @@ public class KPO_lab2_2 {
     }
 
     //Перезаписываем файл
-    public static void writeFile(ArrayList<String> list) {
+    public static void writeFile(ArrayList<String> list, File f) {
         FileWriter fw = null;
         BufferedWriter bw = null;
         PrintWriter pw = null;
