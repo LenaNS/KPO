@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class KPO_lab2_5 {
 
     public static void main(String[] args) {
-        comparisonWords(words());
+        String str1 = inputWords();
+        comparisonWords(words(str1));
     }
 
     //Ввод строки
@@ -17,8 +18,7 @@ public class KPO_lab2_5 {
     }
 
     //Разделение строки на слова
-    public static String[] words() {
-        String str1 = inputWords();
+    public static String[] words(String str1) {
         String[] strArray = str1.split(" ");
         return strArray;
     }
@@ -31,6 +31,6 @@ public class KPO_lab2_5 {
                 str = strArray[i];
             }
         }
-        System.out.println("Вывод:" + str + " " + str.length());
+        System.out.print("Вывод:" + str + " " + str.length() +"\n");
     }
 }
