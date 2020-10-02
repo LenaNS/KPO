@@ -6,20 +6,19 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class KPO_lab2_3 {
-
-    static File f = new File("lab2_3.txt");
+public class KPO_lab2_3 { 
 
     public static void main(String[] args) {
-        int lengthAr = lengthArray();
-        String[][] mas = arrayOperation(lengthAr);
+        File f = new File("lab2_3.txt");
+        int lengthAr = lengthArray(f);
+        String[][] mas = arrayOperation(lengthAr, f);
         outputArray(mas);
         transpositionArray(mas);
 
     }
 
 //Поиск длины массива
-    public static int lengthArray() {
+    public static int lengthArray(File f) {
         int num = 0;
         Scanner reader = null;
         try {
@@ -39,7 +38,7 @@ public class KPO_lab2_3 {
     }
 
 //Считывания масссива из файла
-    public static String[][] arrayOperation(int num) {
+    public static String[][] arrayOperation(int num, File f) {
         String[][] array = new String[num][num];
         Scanner reader = null;
         try {
