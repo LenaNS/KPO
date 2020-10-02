@@ -37,7 +37,7 @@ public class KPO_lab2_3 {
         }
     }
 
-//Считывания масссива из файла
+//Считывания массива из файла
     public static String[][] arrayOperation(int num, File f) {
         String[][] array = new String[num][num];
         Scanner reader = null;
