@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timetable_of_classes>​
+    <lecturer>​
+        <name>Kirillova</name>
+        <subject>Economy</subject>​
+        <day_of_week>Friday</day_of_week>
+        <classroom>321</classroom>        
+        <number_of_pairs>3</number_of_pairs>​
+        <number_of_students>15</number_of_students>​
+    </lecturer>​
+    <lecturer>​
+        <name>Vasnetsov</name>
+        <subject>Psychology</subject>​
+        <day_of_week>Tuesday</day_of_week>
+        <classroom>305</classroom>       
+        <number_of_pairs>2</number_of_pairs>​
+        <number_of_students>18</number_of_students>​
+    </lecturer>​
+    <lecturer>​
+        <name>Voronina</name>
+        <subject>Informatics</subject>​
+        <day_of_week>Monday</day_of_week>
+        <classroom>318</classroom>        
+        <number_of_pairs>5</number_of_pairs>​
+        <number_of_students>20</number_of_students>​
+    </lecturer>​
+    <lecturer>​
+        <name>Ivanov</name>
+        <subject>Maths</subject>​
+        <day_of_week>Monday</day_of_week>
+        <classroom>305</classroom>       
+        <number_of_pairs>3</number_of_pairs>​
+        <number_of_students>19</number_of_students>​
+    </lecturer>​
+</timetable_of_classes>
