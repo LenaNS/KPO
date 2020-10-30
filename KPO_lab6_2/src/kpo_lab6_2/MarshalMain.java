@@ -15,10 +15,10 @@ public class MarshalMain {
             // анонимный класс
             Lecturers lectur = new Lecturers() { 
                 {
-                    // добавление первого студента​
+                    // добавление первого преподователя
                     Lecturer lec = new Lecturer("Economy PI", "Abasova", 310, "Friday", 1, 17);
                     this.add(lec);
-                    // добавление второго студента​
+                    // добавление второго преподователя
                     lec = new Lecturer("BD", "Tirskikh", 321, "Tuesday", 2, 21);
                     this.add(lec);
                 }
